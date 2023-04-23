@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CatProject</string>
+    <string name="no_items_available">No items available</string>
+</resources>

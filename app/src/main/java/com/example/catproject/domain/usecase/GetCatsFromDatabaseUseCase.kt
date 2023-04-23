@@ -1,0 +1,11 @@
+package com.example.catproject.domain.usecase
+
+import com.example.catproject.domain.repository.CatRepository
+import javax.inject.Inject
+
+class GetCatsFromDatabaseUseCase @Inject constructor(
+    private val repository: CatRepository
+) {
+    suspend fun execute() =
+        repository.getCatsFromDatabase()
+}
